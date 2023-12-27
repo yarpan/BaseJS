@@ -11,7 +11,7 @@ const friend = {
 
 const myWish = {
     dream: "To change my life completely",
-    shareMyWish: function(){
+    shareMyWish: function () {
         console.log(`But I have a dream - ${this.dream} \n`)
     }
 };
