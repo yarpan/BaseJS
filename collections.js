@@ -1,5 +1,11 @@
 
-// Creating of Array
+// Creating an Array
+let arr = [4,5,6, "string", nul, {a:12}]
+let a = arr[0]
+
+let arr2 = []
+arr2.push(34)
+
 let testArray = [1, 1, 1, 2, 3, 4, 5, 5, 66, 6, 6, 7, 77, 8, 8, 8888, 9];
 
 // Add +5 for each element
