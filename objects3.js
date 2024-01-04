@@ -38,3 +38,26 @@ delete myCity.info['isPopular']
 
 console.log(myCity)
 //{ city: 'New York', info: { country: 'USA' } }
+
+const myCity = {
+    city: 'New York',
+    cityGreeting: function () {
+        console.log('Greetings!')
+    }
+}
+
+myCity.cityGreeting()
+// Greetings!
+
+const myCity2 = {
+    city: 'New York',
+    cityGreeting() {            // short variant
+        console.log('Greetings!')},  
+    callMessage: function(){
+        console.log('log from function')
+    }
+}
+
+myCity2.cityGreeting()
+// Greetings!
+myCity2.callMessage()
